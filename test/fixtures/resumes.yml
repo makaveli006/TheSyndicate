@@ -1,0 +1,43 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  dob: 2023-01-31
+  marital_status: MyString
+  gender: MyString
+  mob_num: MyString
+  email: MyString
+  pincode: 1
+  current_address: MyString
+  functional_area: MyString
+  experience: MyString
+  key_skills: MyString
+  qualification: MyString
+  edu_specialization: MyString
+  institute_name: MyString
+  year_passout: MyString
+  course_type: MyString
+  res_name: MyString
+  res_attachment: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  dob: 2023-01-31
+  marital_status: MyString
+  gender: MyString
+  mob_num: MyString
+  email: MyString
+  pincode: 1
+  current_address: MyString
+  functional_area: MyString
+  experience: MyString
+  key_skills: MyString
+  qualification: MyString
+  edu_specialization: MyString
+  institute_name: MyString
+  year_passout: MyString
+  course_type: MyString
+  res_name: MyString
+  res_attachment: MyString

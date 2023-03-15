@@ -1,0 +1,24 @@
+<h1 class="sign_up"> Sign up</h1>
+<%= form_for @user do |f| %>
+
+<div class = "form-group form-control-sm">
+  <%= f.label "Email", class: 'custom-font' %>&nbsp;&emsp;&nbsp;&nbsp;
+  <%= f.text_field :email %><br>
+</div>
+
+<div class = "form-group form-control-sm">
+  <%= f.label "Password", class: 'custom-font' %>
+  <%= f.password_field :password %><br>
+</div>
+
+<div class = "form-group form-control-sm">
+  <%= f.label :password_confirmation, class: 'custom-font' %>
+  <%= f.password_field :password_confirmation %><br>
+</div>
+
+<div class="actions">
+  <%= f.submit "Sign up", class:'btn btn-secondary' %>
+  <%= link_to "Sign in?", signin_path , class:'btn btn-primary' %>
+</div>
+
+<% end %>
