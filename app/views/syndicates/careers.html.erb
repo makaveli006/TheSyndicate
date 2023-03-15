@@ -127,27 +127,27 @@
                 <!-- <form action="/insert" method="POST"> -->
                     <%= form_with model: @resume, url: insert_path,html: { multipart: true }, method: :post do |form| %><br>
 
-                        <%= form.text_field :first_name, placeholder: "First Name" %>&emsp;
+                        <%= form.text_field :first_name, placeholder: "First Name" %>&emsp;&trade;&reg;&copy;
 
                         <%= form.text_field :last_name, placeholder: "Last Name" %><br><br>
 
-                        <%= form.text_field :dob, placeholder: "DOB" %><br><br>
+                        <%= form.text_field :dob, placeholder: "DOB" %>&emsp;
 
                         <%= form.text_field :marital_status, placeholder: "Marital Status" %><br><br>
 
                         <%= form.text_field :gender, placeholder: "Gender" %>&emsp;
 
-                        <%= form.text_field :mob_num, placeholder: "Mobile Number" %><br>
+                        <%= form.text_field :mob_num, placeholder: "Mobile Number" %><br><br>
 
-                        <%= form.text_field :email, placeholder: "Email" %><br>
+                        <%= form.text_field :email, placeholder: "Email" %>&emsp;
 
-                        <%= form.text_field :current_address, placeholder: "Current Address" %><br>
+                        <%= form.text_field :current_address, placeholder: "Current Address" %><br><br>
 
-                        <%= form.text_field :experience, placeholder: "Experience" %><br>
+                        <%= form.text_field :experience, placeholder: "Experience" %>&emsp;
 
-                        <%= form.text_field :key_skills, placeholder: "Key Skills" %><br>
+                        <%= form.text_field :key_skills, placeholder: "Key Skills" %><br><br>
 
-                        <%= form.file_field :res_attachment %><br>
+                        <%= form.file_field :res_attachment %><br><br>
 
                         <%= form.submit "Submit", class: "btn btn-primary" %>
 
@@ -163,11 +163,10 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container-fluid bg-success text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="row pt-5">
-            <div class="col-lg-4 col-md-12 mb-5">
-                <h1 class="display-5 text-primary">Gymnast</h1>
-                <p class="m-0">Ipsum amet sed vero et lorem stet eos ut, labore sed sed stet sea est ipsum ut. Volup amet ea sanct ipsum, dolore vero lorem no duo eirmod. Eirmod amet ipsum no ipsum lorem clita ut. Ut sed sit lorem ea lorem sed, amet stet sit sea ea diam tempor kasd kasd. Diam nonumy etsit tempor ut sed diam sed et ea</p>
+            <div class="col-lg-4 col-md-12 mb-5"><br><br><br>
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">The</span>Syndicate</h1>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
